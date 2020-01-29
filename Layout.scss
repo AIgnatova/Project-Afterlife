@@ -1,0 +1,394 @@
+$color-background: #2C344B;
+$color-footer: #191D2A;
+$color-afterlife-title: #ffffff;
+$color-darker-pink: #FF8F8F;
+$color-lighter-pink: #FFDADA;
+
+body {
+    background-color: $color-background;
+    background-image: url(Images/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: $color-lighter-pink;
+
+}
+
+.navbar {
+    text-align: right;
+}
+
+.navbar-item {
+    margin-left: 70%;
+}
+
+.navbar-toggler {
+    background-image: url(Images/Navbarbutton.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-afterlifenav {
+    background-color: rgba(21, 25, 36, 0.31);
+}
+
+.nav-link {
+    color: $color-lighter-pink;
+}
+
+.nav-link:hover {
+    color: darken($color-lighter-pink, 10%);
+}
+
+
+.navbar-brand {
+    color: $color-afterlife-title;
+}
+
+.navbar-toggler-icon {
+    max-width: 100%;
+}
+
+#title {
+    text-align: center;
+    margin: 18% auto 15% auto;
+    color: white;
+}
+
+h1 {
+    font-size: 7em;
+}
+
+h6 {
+    font-size: 1em;
+    text-align: center;
+    font-weight: normal;
+
+}
+
+.artists {
+    text-align: center;
+    font-size: 2.5rem;
+    color: $color-afterlife-title;
+    font-weight: 400;
+}
+
+.container1 {
+    max-width: 95%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    text-align: center;
+    margin: 125px 2% 2%;
+
+
+}
+
+h3 {
+    color: $color-lighter-pink;
+}
+
+.container1 p {
+    color: $color-afterlife-title;
+    font-size: 1.2em;
+    margin: 10px 15px 50px 25px;
+    text-align: left;
+    line-height: 1.2em;
+
+}
+
+.latest-news {
+    background-color: rgba(25, 29, 42, 0.44);
+    border-radius: 20px;
+    padding: .7%;
+    margin-bottom: 30px;
+}
+
+.read-link {
+    color: darken($color-darker-pink, 10%);
+}
+
+.read-link:hover {
+    color: darken($color-darker-pink, 20%)
+}
+
+.soundcloud-player {
+    border-radius: 25px;
+}
+iframe {
+    width: 100%;
+}
+
+
+
+
+
+
+
+//FOOTER
+
+footer {
+    background-color: darken($color-background, 12%);
+    max-width: 100%;
+    bottom: 0;
+    padding: 20px 0px 2% 0px;
+    height: 15%;
+}
+
+.widget {
+    margin: 0 auto 0 auto;
+}
+
+footer ul{	
+    padding-left: 0;
+    list-style: none;
+}
+
+.social-footer2 li {
+    display: inline-block;
+    padding: 0;
+color: $color-lighter-pink;
+}
+
+.thumb-content a {
+    color: $color-lighter-pink;
+    text-decoration: none;
+}
+.thumb-content a:hover {
+    color: $color-darker-pink;
+}
+
+
+.footer-copyright {
+	padding: 5px 0px 0px 0px;
+    margin: 0 auto 0 auto;
+}
+
+.widget-title {
+    color: darken($color-darker-pink, 10%);
+}
+
+.container {
+    margin: 0 auto 0 auto;
+}
+
+
+
+
+
+//PAGE 2
+
+.container2 {
+    max-width: 90%;
+    text-align: center;
+    margin: 1px auto 1px;
+
+}
+
+.card {
+    background-color: darken($color-background, 5%);
+    border-radius: 5px;
+    max-width: 95%;
+    margin: 5px 2px 0px 0px;
+    padding: 15px 2px 0px;
+}
+
+.card a {
+    color: #FF8F8F;
+}
+
+.card-columns {
+    column-count: 1;
+}
+
+h4 {
+    color: $color-darker-pink;
+    font-size: 1.5em;
+}
+
+.card-text {
+    font-size: 1vm;
+}
+
+@media screen and (min-width: 576px) {
+
+    .container2 {
+        column-count: 1;
+    }
+
+    h4 {
+        font-size: .5em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .container2 {
+        column-count: 2;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .container2 {
+        column-count: 2;
+    }
+
+    h4 {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container2 {
+        column-count: 3;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .container2 {
+        column-count: 4;
+    }
+}
+
+
+.Spotlight-artists {
+    max-width: 95%;
+    margin: 0 auto 0 auto;
+}
+
+.Tale-of-us {
+    max-width: 40%;
+}
+
+.spotlight-Taleofus {
+    max-width: 50%;
+    text-justify: inter-word;
+}
+
+.Spotlight-artists h3 {
+    color: darken($color-darker-pink, 10%);
+}
+
+.Spotlight-artists h5 {
+    color: lighten($color-darker-pink, 10%);
+}
+
+.Spotlight-artists p {
+    color: lighten($color-darker-pink, 20%);
+}
+
+.container5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 90%;
+    margin: 0 auto 0 auto;
+    
+}
+
+.Tale-of-us img {
+    width: 100%;
+}
+
+
+//PAGE 3
+
+.container3 .one-entry {
+    background-color: darken($color-background, 5%);
+    border-radius: 5px;
+    max-width: 90%;
+    padding: .7%;
+    margin: .5% auto 0 auto;
+
+}
+
+.container3 li {
+    list-style: none;
+}
+.one-entry div {
+    display: inline-block;
+}
+
+.one-entry img {
+    float: right;
+    width: 50px;
+    height: 50px;
+    border: 0px;
+}
+
+.show-date {
+    color: $color-darker-pink;
+    box-sizing: border-box;
+    width: 50px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.show-gallery img {
+    width: 300px;
+
+}
+
+div.gallery {
+    background-color: darken($color-background, 5%);
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+div.gallery:hover {
+    border: 1px groove $color-lighter-pink;
+}
+
+div.gallery img {
+    width: 90%;
+    height: auto;
+    margin: 10px 10px 10px 10px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.show-gallery {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    max-width: 90%;
+}
+
+//PAGE 4 - Contact Us
+
+.contact-us-bg {
+    background-image: url(Images/Background2.PNG);
+}
+
+.form {
+    background-color: rgba(25, 29, 42, 0.78);
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 70%;
+    margin: 0 auto 0 auto;
+    margin-bottom: 100px;
+}
+
+.form-group {
+    margin: 3px auto 0 auto;
+    font-weight: bolder;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    color: #c1ffc1;
+}
+
+.btn {
+    margin: 15px;
+    background-color: #185E5D;
+    border-color: #000000;
+    color: #fff;
+}
